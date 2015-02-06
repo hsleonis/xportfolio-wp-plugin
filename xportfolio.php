@@ -13,12 +13,9 @@
  //Avoid script kiddies
  defined('ABSPATH') or die('No script kiddies please!');
  
- add_action('after_post','print_msg');
- function print_msg(){
- 	print "<h1>Remember to save your post.</h1>";
- }
+ require_once ('admin/index.php');
 
  add_action('admin_footer', 'my_admin_footer_function');
-function my_admin_footer_function() {
+ function my_admin_footer_function() {
 	echo '<p>Thanks for installing xPortfolio &copy;'.date('Y').'</p>';
-}
+ }
