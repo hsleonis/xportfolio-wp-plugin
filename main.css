@@ -1,0 +1,50 @@
+#wp-admin-bar-lock-button span{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0px;
+	left: 85px;
+	position: relative;
+	top: -10px;
+	padding: 0px 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+.main-lock-screen{
+	display: none;
+	width: 100% !important;
+	height: 100% !important;
+	position: fixed !important;
+	top:0px;
+	left:0px;
+	z-index: 99999;
+	background: #26292C;
+}
+.main-lock-screen>div{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-lock-screen span{
+	display: table !important;
+	margin: auto !important;
+}
+.lock-avatar{
+	border: 10px solid rgba(255,255,255,0.5);
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin: 0px auto 70px auto;
+	display: block;
+}
+.lock-date{
+	font-size: 28px;
+	padding-bottom: 50px;
+}

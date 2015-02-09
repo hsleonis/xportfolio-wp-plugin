@@ -1,2 +1,2 @@
-# xportfolio-wp-plugin
-xPortFolio is a simple wordpress plugin for easily adding various portfolio on your wordpress site.
+# wp-lock-screen
+Wp-lock-screen is a simple wordpress plugin to add lock screen.
